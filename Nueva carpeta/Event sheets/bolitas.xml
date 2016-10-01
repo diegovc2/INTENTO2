@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>bolitas</name>
+    <events>
+        <variable constant="0" name="fuerzaTrompo" sid="9086025228948514" static="0" type="number">0</variable>
+        <event-block sid="4104366450523825">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="6540606978277161" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="5447317470797497" type="Text">
+                    <param id="0" name="Text">fuerzaTrompo</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8499439354433419">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="1322213102158946" type="System">
+                    <param id="0" name="Variable">fuerzaTrompo</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">11</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-21" name="Reset global variables" sid="358023332496677" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="8687799817921858">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="6629001145104437" type="System">
+                    <param id="0" name="Interval (seconds)">0.09</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="1381807818246717" type="System">
+                    <param id="0" name="Variable">fuerzaTrompo</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1942838033752633">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="4410663034331929" type="Keyboard">
+                    <param id="0" name="Key">88 (X)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="3434738975055416" type="bola1">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="453785567900942" type="System">
+                    <param id="0" name="Variable">fuerzaTrompo</param>
+                    <param id="1" name="Value">fuerzaTrompo</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="318908511234569">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="243318179134354" type="System">
+                            <param id="0" name="Variable">fuerzaTrompo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="136105481618479" type="bola1">
+                            <param id="0" name="Speed">100</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="774121845113899">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="283852663093917" type="System">
+                            <param id="0" name="Variable">fuerzaTrompo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="570513463503041" type="bola1">
+                            <param id="0" name="Speed">200</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="852180102718868">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="284352259120460" type="System">
+                            <param id="0" name="Variable">fuerzaTrompo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="337098374765679" type="bola1">
+                            <param id="0" name="Speed">300</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="760832340072652">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="438468783174414" type="System">
+                            <param id="0" name="Variable">fuerzaTrompo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="946631758123178" type="bola1">
+                            <param id="0" name="Speed">400</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="407183691564639">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="808330705734806" type="System">
+                            <param id="0" name="Variable">fuerzaTrompo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="131049499189820" type="bola1">
+                            <param id="0" name="Speed">500</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="336610734868864">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="574898420676701" type="System">
+                            <param id="0" name="Variable">fuerzaTrompo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="829126584181102" type="bola1">
+                            <param id="0" name="Speed">600</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="984514567272316">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="635502757922087" type="System">
+                            <param id="0" name="Variable">fuerzaTrompo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="257398217189213" type="bola1">
+                            <param id="0" name="Speed">700</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="224173222467431">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="915963696790804" type="System">
+                            <param id="0" name="Variable">fuerzaTrompo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="453889493124176" type="bola1">
+                            <param id="0" name="Speed">800</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="171128824919197">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="653428704993199" type="System">
+                            <param id="0" name="Variable">fuerzaTrompo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="942486657689507" type="bola1">
+                            <param id="0" name="Speed">900</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="127951237649693">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4189858198299906" type="System">
+                            <param id="0" name="Variable">fuerzaTrompo</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Bullet" id="0" name="Set speed" sid="3606394928835113" type="bola1">
+                            <param id="0" name="Speed">1000</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="718855778727906">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="342984198666746" type="bola1">
+                    <param id="0" name="Object">Sprite2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="720369621671576" type="bola1">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="Physics" id="21" name="Set immovable" sid="303047588426643" type="bola1">
+                    <param id="0" name="Setting">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

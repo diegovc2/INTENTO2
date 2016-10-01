@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>huevo en la cuchara</name>
+    <events>
+        <variable constant="0" name="hawkBarra" sid="994491157768813" static="0" type="number">0</variable>
+        <event-block sid="552641627804784">
+            <conditions>
+                <condition behavior="8Direction" id="1" name="Compare speed" sid="575764549481248" type="huevo">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Speed">200</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="560123946228371" type="System">
+                    <param id="0" name="Variable">fuerzaTrompo</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="280364384122801">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="520711113931738" type="System">
+                    <param id="0" name="Variable">hawkBarra</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="5" name="Set acceleration" sid="814986997412075" type="huevo">
+                    <param id="0" name="Acceleration">100</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
