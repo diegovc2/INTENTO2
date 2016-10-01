@@ -28,9 +28,10 @@
             </conditions>
             <actions>
                 <action behavior="8Direction" id="5" name="Set acceleration" sid="814986997412075" type="huevo">
-                    <param id="0" name="Acceleration">100</param>
+                    <param id="0" name="Acceleration">1000</param>
                 </action>
             </actions>
         </event-block>
+        <comment>hello bitch</comment>
     </events>
 </c2eventsheet>
