@@ -13,5 +13,6 @@
                 </action>
             </actions>
         </event-block>
+        <comment>ESTE ES UN COMENTARIO</comment>
     </events>
 </c2eventsheet>
