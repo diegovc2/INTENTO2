@@ -17,7 +17,9 @@
     <used-behaviors>
         <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
     </used-behaviors>
     <used-effects />
@@ -25,7 +27,7 @@
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>1080</width>
+        <width>1280</width>
         <height>720</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
@@ -134,15 +136,159 @@
         <object-type name="Text2" sid="723771423850326">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Sprite3" sid="803028382001116">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="358352256706095" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\VanBrokk\Desktop\Jam Patriotico\IMG\Fondo menu.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="291350290871458">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="890422266718851">
+                    <behavior id="Rotate" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="632024200467843">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="774107683335589" speed="5">
+                    <frame duration="1" hotspotX="0.50033" hotspotY="0.5" original-source="C:\Users\VanBrokk\Desktop\Jam Patriotico\IMG\Title.png">
+                        <collision-poly>
+                            <point x="0.0456048" y="0.180628" />
+                            <point x="0.49967" y="0.0837696" />
+                            <point x="0.9154" y="0.335079" />
+                            <point x="0.984137" y="0.5" />
+                            <point x="0.970258" y="0.882199" />
+                            <point x="0.49967" y="0.942408" />
+                            <point x="0.0502313" y="0.801047" />
+                            <point x="0.0588235" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="301589116422181">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="367641899594739" speed="1">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\VanBrokk\Desktop\Jam Patriotico\IMG\Vaca-sexy.png">
+                        <collision-poly>
+                            <point x="0.112245" y="0.1375" />
+                            <point x="0.5" y="0.04375" />
+                            <point x="0.897959" y="0.125" />
+                            <point x="0.704082" y="0.5" />
+                            <point x="0.678571" y="0.60625" />
+                            <point x="0.5" y="0.8875" />
+                            <point x="0.346939" y="0.575" />
+                            <point x="0.336735" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.112245" y="0.1375" />
+                            <point x="0.5" y="0.04375" />
+                            <point x="0.897959" y="0.125" />
+                            <point x="0.704082" y="0.5" />
+                            <point x="0.678571" y="0.60625" />
+                            <point x="0.5" y="0.8875" />
+                            <point x="0.346939" y="0.575" />
+                            <point x="0.336735" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Click" pingpong="0" repeatcount="1" repeatto="0" sid="628249458607963" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\VanBrokk\Desktop\Jam Patriotico\IMG\Vaca-sexy.png">
+                        <collision-poly>
+                            <point x="0.663265" y="0.5" />
+                            <point x="0.653061" y="0.575" />
+                            <point x="0.5" y="0.8875" />
+                            <point x="0.321429" y="0.60625" />
+                            <point x="0.295918" y="0.5" />
+                            <point x="0.102041" y="0.125" />
+                            <point x="0.5" y="0.04375" />
+                            <point x="0.887755" y="0.1375" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="682996077691545">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="544275886840606" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\VanBrokk\Desktop\Jam Patriotico\IMG\Ico-Trompo.png">
+                        <collision-poly>
+                            <point x="0.2175" y="0.2175" />
+                            <point x="0.5" y="0.175" />
+                            <point x="0.6425" y="0.3575" />
+                            <point x="0.6725" y="0.5" />
+                            <point x="0.7375" y="0.7375" />
+                            <point x="0.5" y="0.715" />
+                            <point x="0.3575" y="0.6425" />
+                            <point x="0.2075" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\VanBrokk\Desktop\Jam Patriotico\IMG\Ico-Trompo2.png">
+                        <collision-poly>
+                            <point x="0.195" y="0.195" />
+                            <point x="0.5" y="0.155" />
+                            <point x="0.69" y="0.31" />
+                            <point x="0.72" y="0.5" />
+                            <point x="0.7875" y="0.7875" />
+                            <point x="0.5" y="0.78" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.175" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="550486331054877">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="234996396796168" speed="5">
+                    <frame duration="1" hotspotX="0.502041" hotspotY="0.5" original-source="C:\Users\VanBrokk\Desktop\Jam Patriotico\IMG\Ico-BotellaAros.png">
+                        <collision-poly>
+                            <point x="0.293878" y="0.18" />
+                            <point x="0.497959" y="0.0625" />
+                            <point x="0.661224" y="0.2075" />
+                            <point x="0.914286" y="0.5" />
+                            <point x="0.612245" y="0.7625" />
+                            <point x="0.497959" y="0.94" />
+                            <point x="0.183673" y="0.8875" />
+                            <point x="0.0857143" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502041" hotspotY="0.5" original-source="C:\Users\VanBrokk\Desktop\Jam Patriotico\IMG\Ico-BotellaAros2.png">
+                        <collision-poly>
+                            <point x="0.204082" y="0.125" />
+                            <point x="0.497959" y="0.035" />
+                            <point x="0.693878" y="0.1875" />
+                            <point x="0.942857" y="0.5" />
+                            <point x="0.710204" y="0.8225" />
+                            <point x="0.497959" y="0.9725" />
+                            <point x="0.146939" y="0.91" />
+                            <point x="0.0489796" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>bolitas.xml</layout>
         <layout>huevo en la cuchara.xml</layout>
+        <layout>Inicio.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>bolitas.xml</event-sheet>
         <event-sheet>huevo en la cuchara.xml</event-sheet>
+        <event-sheet>Sh_Inicio.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="1" />
