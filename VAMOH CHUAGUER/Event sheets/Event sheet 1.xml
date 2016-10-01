@@ -14,5 +14,15 @@
             </actions>
         </event-block>
         <comment>ESTE ES UN COMENTARIO</comment>
+        <event-block sid="730054044689580">
+            <conditions>
+                <condition id="-41" name="Is between angles" sid="244104942759124" type="System">
+                    <param id="0" name="Angle">0</param>
+                    <param id="1" name="First angle">0</param>
+                    <param id="2" name="Second angle">45</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
     </events>
 </c2eventsheet>
